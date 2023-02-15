@@ -109,11 +109,9 @@ void main(List<String> args) {
 
             if (genero == 'Hombre' && estadoCivil == 'Casado') {
               sumEdades += edad;
-              count ++;
-
+              count++;
             }
           }
-
 
           var promedioEdades = sumEdades / count;
           print(
@@ -158,12 +156,9 @@ class Datos {
   String? estado;
   int? edad;
 
-
-  Datos(String sexo, String estado, int edad){
+  Datos(String sexo, String estado, int edad) {
     this.sexo = sexo;
     this.estado = estado;
     this.edad = edad;
-
   }
-  
 }
